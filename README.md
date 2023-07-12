@@ -16,7 +16,7 @@ This repository is tested on Ubuntu 20.04 using a V100 and the following setting
 ```
 
 ## License
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 ## Citation
 If you find this repository useful in your research, please consider giving a star ⭐ and cite our ICASSP 2023 paper by using the following BibTeX entrys.
