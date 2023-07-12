@@ -1,11 +1,9 @@
 
 # Nord: Non-Matching Reference Based Relative Depth Estimation from Binaural Speech
 
-This is an open-source release for the paper published in ICASSP 2023 conference: " Nord: Non-Matching Reference Based Relative Depth Estimation from Binaural Speech". This code-base provides an example how to use the pre-trained model to evalute the relative depth between two binaural speech recordings.
+This is an open-source release for the paper published in ICASSP 2023 conference: <b>"NORD: Non-Matching Reference Based Relative Depth Estimation from Binaural Speech" </b>. NORD is a novel framework for estimating the relative depth between two binaural speech recordings. In contrast to existing depth estimation techniques, ours only requires audio signals as input. We trained the framework to solve depth preference (i.e. which input perceptually sounds closer to the listener’s head), and quantification tasks (i.e. quantifying the depth difference between the inputs). In addition, training leverages recent advances in metric and multi-task learning, which allows the framework to be invariant to both signal content (i.e. non-matched reference) and directional cues (i.e. azimuth and elevation). Our framework has additional useful qualities that make it suitable for use as an objective metric to benchmark binaural audio systems, particularly depth perception and sound externalization. [[paper](https://ieeexplore.ieee.org/document/10094615]
 
-### Abstract
-NORD: is a novel framework for estimating the relative depth between two binaural speech recordings. In contrast to existing depth estimation techniques, ours only requires audio signals as input. We trained the framework to solve depth preference (i.e. which input perceptually sounds closer to the listener’s head), and quantification tasks (i.e. quantifying the depth difference between the inputs). In addition, training leverages recent advances in metric and multi-task learning, which allows the framework to be invariant to both signal content (i.e. non-matched reference) and directional cues (i.e. azimuth and elevation). Our framework has additional useful qualities that make it suitable for use as an objective metric to benchmark binaural audio systems, particularly depth perception and sound externalization. [[paper](https://ieeexplore.ieee.org/document/10094615]
-
+This repo provides an example how to use the pre-trained model to evalute the relative depth between two binaural speech recordings.
 
 ## Requirements
 This repository is tested on Ubuntu 20.04 using a V100 and the following settings.
