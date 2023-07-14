@@ -1,0 +1,11 @@
+evaluation_files:
+  - eval_01:
+    ref_mono: "eval_01/mono_ref.wav"
+    ref_bin: "eval_01/bin_ref.wav"
+    test_mono: "eval_01/mono_test.wav"
+    test_bin: "eval_01/bin_test.wav"
+  - eval_02:
+    ref_mono: "eval_02/mono_ref.wav"
+    ref_bin: "eval_02/bin_ref.wav"
+    test_mono: "eval_02/mono_test.wav"
+    test_bin: "eval_02/bin_test.wav"
