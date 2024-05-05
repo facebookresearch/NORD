@@ -1,6 +1,6 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 pysoundfile=0.12.1
-tqdm=4.65.0
+tqdm=4.66.3
 omegaconf=2.3.0
 librosa=0.10.0
